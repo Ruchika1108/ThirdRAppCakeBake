@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vaishali.thirdrappcakebake">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2ActivityDelcious" />
+        <activity android:name=".Main3ActivityBirthday" />
+        <activity android:name=".Main4ActivityEggless" />
+        <activity android:name=".Main5ActivityCartoon" />
+        <activity android:name=".del1" />
+        <activity android:name=".del2" />
+        <activity android:name=".del3" />
+        <activity android:name=".del4" />
+        <activity android:name=".del5" />
+        <activity android:name=".del6" />
+        <activity android:name=".cartoon1" />
+        <activity android:name=".cartoon2" />
+        <activity android:name=".cartoon3" />
+        <activity android:name=".cartoon4" />
+        <activity android:name=".cartoon5" />
+        <activity android:name=".birth1" />
+        <activity android:name=".birth2" />
+        <activity android:name=".birth3" />
+        <activity android:name=".birth4" />
+        <activity android:name=".birth5" />
+        <activity android:name=".birth6" />
+        <activity android:name=".egg1" />
+        <activity android:name=".egg2" />
+        <activity android:name=".egg3" />
+        <activity android:name=".egg4" />
+        <activity android:name=".egg5" />
+        <activity android:name=".egg6" />
+        <activity android:name=".cartoon6" />
+        <activity android:name=".DeliveryInfo" />
+        <activity android:name=".CustomersInfo" />
+        <activity android:name=".Home"></activity>
+    </application>
+
+</manifest>

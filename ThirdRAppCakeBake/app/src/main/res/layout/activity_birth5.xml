@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vaishali.thirdrappcakebake.birth5">
+
+
+    <ImageView
+        android:id="@+id/cake1"
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        app:srcCompat="@drawable/birth5"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="186dp"
+            android:layout_height="63dp"
+            android:text="Name"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="229dp" />
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ButterScotch Cake"
+            android:textSize="20sp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="186dp"
+            android:layout_height="63dp"
+            android:text="Price"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="229dp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="400"
+            android:textSize="20sp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="186dp"
+            android:layout_height="63dp"
+            android:text="Weight"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="229dp" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="1Kg"
+
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Now"
+        android:onClick="ordernowClick"/>
+
+</LinearLayout>

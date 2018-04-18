@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bkg3"
+    tools:context="com.example.vaishali.thirdrappcakebake.Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="147dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            app:srcCompat="@drawable/cakeonline" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="339dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Balaji's CakenBake is an online cake ordering application that delivers cakes in different parts of Aurangabad.there is great demand.As of putting
+everything online so to follow the chaning of digitalization we directly providing this service in
+ mid night to surprise your loved one with the cake party.We at CakenBake promises to deliver the best and hygienic cakes
+ with or without eggs on a reasonable cost we do have more than 200 flavours and designs specially for wedding anniversary,borthday cakes and
+ there are varities of cakes are available.our team is a group of technological expertise and operational experience is our key
+ to deliver the best in industry.For any suggestions and complaint you can email is at helpcakenbake@in .
+ We are providing free home delivery of cakes in Aurangabad ." />
+    </LinearLayout>
+
+
+</LinearLayout>

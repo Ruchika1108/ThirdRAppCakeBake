@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ThirdRAppCakeBake</string>
+    <string name="textview">TextView</string>
+    <string name="enter_delivery_date">Enter delivery date</string>
+    <string name="enter_delivery_time">Enter delivery time</string>
+    <string name="message_to_be_written_on_cake">Message to be written on cake</string>
+    <string name="button">Button</string>
+    <string name="place_the_order">Place The Order</string>
+</resources>
